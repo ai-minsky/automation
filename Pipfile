@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "==5.3.4"
+requests = "==2.19.1"
+pytest-html = "==2.0.1"
+pytest-xdist = "==1.31.0"
+selenium = "==3.141.0"
+v = {editable = true,version = "*"}
+pytest-bdd = "*"
+bs4 = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
